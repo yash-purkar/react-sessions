@@ -1,7 +1,11 @@
 import './App.css';
 import { SumCard } from './session-1/SumCard';
 
-import { EmployeCard } from './session-1/EmployeCard';;
+import { EmployeCard } from './session-1/EmployeCard';
+
+import { Product } from './session-1/Product';
+import { productDetails } from './session-1/ProductDetails';
+
 
 function App() {
   return (
@@ -11,8 +15,12 @@ function App() {
       <hr />
       <EmployeCard />
       <hr />
+      <Product product={productDetails} />
+      <hr />
     </div>
   );
 }
 
 export default App;
+
+//Props are nothing but passing value to the function using JSX syntax
