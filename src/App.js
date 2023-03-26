@@ -11,7 +11,9 @@ import { ProductList } from './session-1/ProductList';
 
 import { fruits } from './session-1/ProductDetails';
 
-import { mobiles } from './session-1/ProductDetails';
+// import { mobiles } from './session-1/ProductDetails';
+
+import { EmpCard } from './session-1/EmployeCard';
 
 
 
@@ -29,7 +31,8 @@ function App() {
       <hr />
       <ProductList prodList={fruits} productHeader={"Fruits"} />
       <hr />
-      <ProductList prodList={mobiles} productHeader={"Mobiles"} />
+      {/* <ProductList prodList={mobiles} productHeader={"Mobiles"} /> */}
+      <EmpCard />
     </div>
   );
 }

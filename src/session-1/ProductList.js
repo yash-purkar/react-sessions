@@ -5,7 +5,7 @@ export const ProductList = ({ prodList, productHeader }) => {
     <>
       <h1>{productHeader}</h1>
       <ul>
-        {prodList.map(({ id, name, price }) => <ProductCard name={name} price={price} />)}
+        {prodList.map(({ id, name, price }) => (<ProductCard name={name} price={price} />))}
       </ul>
     </>
   );
