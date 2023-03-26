@@ -1,7 +1,7 @@
 import './App.css';
 import { SumCard } from './session-1/SumCard';
 
-import { EmployeeCard } from './session-1/EmployeeCard';;
+import { EmployeCard } from './session-1/EmployeCard';;
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       {/* Session One */}
       <SumCard num1={4} num2={5} />
       <hr />
-      <EmployeeCard />
+      <EmployeCard />
       <hr />
     </div>
   );

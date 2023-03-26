@@ -1,10 +1,13 @@
 export const SumCard = ({ num1, num2 }) => {
+  const myStyle = {
+    fontSize: "20px"
+  }
   return (
     <>
-      <h1>Sum Of Numbers</h1>
-      <p>Number One: {num1}</p>
-      <p>Number Two: {num2}</p>
-      <p>Sum: {num1 + num2}</p>
+      <h1 style={{ color: "green" }}>Sum Of Numbers</h1>
+      <p>Number One: <span style={myStyle}>{num1}</span></p>
+      <p>Number Two: <span style={myStyle}>{num2}</span></p>
+      <p>Sum: <span style={myStyle}>{num1 + num2}</span></p>
     </>
   )
 }
