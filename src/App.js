@@ -15,6 +15,9 @@ import { fruits } from './session-1/ProductDetails';
 
 import { EmpCard } from './session-1/EmployeCard';
 
+import { MyCart } from './session-1/MyCart';
+import { mycart } from './session-1/ProductDetails';
+
 
 
 
@@ -33,6 +36,8 @@ function App() {
       <hr />
       {/* <ProductList prodList={mobiles} productHeader={"Mobiles"} /> */}
       <EmpCard />
+      <hr />
+      <MyCart mycart={mycart} heading="My Cart" />
     </div>
   );
 }

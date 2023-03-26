@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-li{
+ul li{
   list-style-type: none;
   margin: 3px;
 }
