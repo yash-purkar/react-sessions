@@ -18,6 +18,8 @@ import { EmpCard } from './session-1/EmployeCard';
 import { MyCart } from './session-1/MyCart';
 import { mycart } from './session-1/ProductDetails';
 
+import { UseState } from './session-1/UseState';
+
 
 
 
@@ -38,6 +40,8 @@ function App() {
       <EmpCard />
       <hr />
       <MyCart mycart={mycart} heading="My Cart" />
+      <hr />
+      <UseState />
     </div>
   );
 }
